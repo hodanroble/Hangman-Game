@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hangman-Game</title>
+	   
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Bootstrap compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+</head>
+<body>
+
+
+<div class="panel panel-default" style="max-width:400px;margin-left:auto; margin-right:auto; margin-top:100px;">
+  <div class="panel-body text-center">
+
+<!-- Background Not Sure WHY its not fully rainbow colors???-->
+    <h1> Guess That Fruit! </h1>
+      <div class="panel-body text-left">
+            <div id="Rainbow">
+                    <div id="red" class="rainbow-color"></div>
+                    <div id="orange" class="rainbow-color"></div>
+                    <div id="yellow" class="rainbow-color"></div>
+                    <div id="green" class="rainbow-color"></div>
+                    <div id="blue" class="rainbow-color"></div>
+                    <div id="indigo" class="rainbow-color"></div>
+                    <div id="violet" class="rainbow-color"></div>
+                    </div>
+
+
+<Container=left justified>
+<p> # of guesses left : <span id="guesses-left"></span></p>
+<p> # of wrong guesses : <span id="wrong-guesses"></span></p>
+<p> # of wins : <span id="win-counter"></span></p>
+<p> # of losses : <span id="loss-counter"></span></p>
+<h3 id="word-blank"></h3>
+
+<script src="./assets/javascript/game.js"></script>
+
+  </div>
+</div>
+
+</body>
+</html>
